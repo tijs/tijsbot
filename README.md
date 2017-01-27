@@ -7,3 +7,4 @@ A proof of concept messenger bot that currently can:
 
 Code needs cleanup. Feel free to have a peek but the goal of this project is to play not to teach best practices ;)
 
+![screenshot](https://raw.githubusercontent.com/tijs/tijsbot/master/docs/example.PNG)
