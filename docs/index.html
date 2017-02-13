@@ -1,0 +1,55 @@
+<html>
+
+<head>
+	<title>Tijsbot</title>
+	<style>
+	body, html { font: Verdana 12pt #c0c0c0; }
+	</style>
+</head>	
+
+<body>
+<script>
+
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId: "APP_ID",
+        xfbml: true,
+        version: "v2.6"
+      });
+
+    };
+
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) { return; }
+       js = d.createElement(s); js.id = id;
+       js.src = "//connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+
+</script>
+<h1>Tijsbot</h1>
+<p>Tijsbot is an experiment in how to build bots for Facebook messenger</p>
+<p>
+	<div class="fb-send-to-messenger" 
+  messenger_app_id="1898807130405630" 
+  page_id="tijsbot" 
+  color="blue" 
+  size="standard"></div>
+</p>
+
+<h2>Privacy Policy</h2>
+
+<ul>
+	<li> Wij slaan alleen de persoonlijke data op die we van Facebook krijgen, zoals uw naam, en die u zelf invult voor bepaalde functionaliteit, zoals uw postcode. Wij doen dat alleen voor het functioneren van de bot als u hem gebruikt.</li>
+	<li> De conversaties zelf worden niet opgeslagen.</li>
+	<li> Geen enkele persoonlijke data word gedeeld met derden.</li>
+</ul>
+
+<h2>Algemene Voorwaarden</h2>
+
+<p>Deze bot is bedoeld als experiment. Er kunnen rechten worden ontleend aan het gebruik van deze bot. Wij zijn niet verantwoordelijk voor eventuele schade als gevolg van het gebruik van deze bot. Wij kunnen niet garanderen dat deze bot altijd werkt danwel beschikbaar is</p>
+
+</body>
+
+</html>
